@@ -12,4 +12,4 @@ s1= [[0 for _ in range(2)] for _ in range(i)] #col frist after write for row
 for j in range(i):
     a,b=input("").split()
     s1[j][0],s1[j][1]=a,b
-solve(s1,i)
+solve(s1)
